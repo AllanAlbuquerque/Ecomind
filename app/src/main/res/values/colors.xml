@@ -2,8 +2,9 @@
 <resources>
     <color name="light_pink">#FFF8A2B6</color>
     <color name="purple">#FF822DBA</color>
-    <color name="emerald">#FF42A189</color>
+    <color name="emerald">#FF8BA78D</color>
     <color name="blue">#FF0041A8</color>
-    <color name="black">#FF1F1D2E</color>
+    <color name="black">#FF212121</color>
+    <color name="light_black">#FF313131</color>
     <color name="white">#FFFFFFFF</color>
 </resources>

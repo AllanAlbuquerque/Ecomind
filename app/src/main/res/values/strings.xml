@@ -2,6 +2,10 @@
     <string name="app_name">Ecomind</string>
     <string name="sign_up">Sign up</string>
     <string name="create_account">Create account</string>
+    <string name="welcome_back">Bem-vindo de volta!</string>
+    <string name="welcome_desc">Digite as informações de login para acessar sua conta.</string>
+    <string name="register">Register</string>
+    <string name="dont_have_account">Don\'t have account?</string>
     <string name="have_account">Log in or create an account</string>
     <string name="sign_up_google">Sign up with google</string>
     <string name="forget_password">Forget password?</string>
