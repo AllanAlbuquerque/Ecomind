@@ -1,17 +1,28 @@
 <resources>
     <string name="app_name">Ecomind</string>
     <string name="sign_up">Sign up</string>
+    <string name="login">Login</string>
     <string name="create_account">Create account</string>
     <string name="welcome_back">Bem-vindo de volta!</string>
     <string name="welcome_desc">Digite as informações de login para acessar sua conta.</string>
-    <string name="register">Register</string>
+    <string name="login_desc">Transformando hábitos sustentáveis em benefícios compartilhados.\n Seja parte da mudança!</string>
+    <string name="login_google">Login with Google</string>
+    <string name="remember_date">Remember Data</string>
+    <string name="forget_password">Forget my password</string>
+
     <string name="dont_have_account">Don\'t have account?</string>
     <string name="have_account">Log in or create an account</string>
     <string name="sign_up_google">Sign up with google</string>
-    <string name="forget_password">Forget password?</string>
-    <string name="full_name">Full name</string>
+
     <string name="email">E-mail</string>
     <string name="password">Password</string>
+
+    <!-- Strings Register -->
+    <string name="register">Register</string>
+    <string name="register_desc">Crie uma conta e faça parte da\n mudança com a Ecomind!</string>
+    <string name="full_name">Full name</string>
     <string name="company_id">ID Company</string>
     <string name="select_job">Select your job</string>
+    <string name="accept_terms">I learned and accept the terms</string>
+    <string name="already_have_account">Already have an account?</string>
 </resources>

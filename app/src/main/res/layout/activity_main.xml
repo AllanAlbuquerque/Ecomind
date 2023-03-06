@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:alpha="0.7"
-    android:background="@drawable/leaves_light"
-    android:filterTouchesWhenObscured="false"
+    android:background="@drawable/background_leaves"
     tools:context=".MainActivity">
 
     <Button
@@ -35,7 +33,7 @@
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="100dp"
         android:autoText="false"
-        android:backgroundTint="@color/blue"
+        android:backgroundTint="@color/light_black"
         android:text="@string/create_account"
         android:textAllCaps="false"
         android:textSize="16sp"
@@ -47,20 +45,21 @@
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="25dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView_haveAccount"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/logo" />
 
     <TextView
-        android:id="@+id/textView_haveAccount"
-        android:layout_width="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_width="300sp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="125dp"
-        android:text="@string/have_account"
-        android:textColor="@color/light_pink"
-        android:textSize="20sp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/montserrat_alternates"
+        android:text="@string/login_desc"
+        android:textAlignment="center"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/button_signUp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
