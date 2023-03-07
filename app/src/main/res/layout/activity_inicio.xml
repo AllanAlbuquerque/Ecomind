@@ -391,7 +391,7 @@
         android:src="@drawable/icone_adicionar"
         android:verticalScrollbarPosition="left"
         tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="1328dp" />
+        tools:layout_editor_absoluteY="1355dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
