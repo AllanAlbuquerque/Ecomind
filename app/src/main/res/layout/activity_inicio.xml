@@ -13,9 +13,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
             <View
                 android:id="@+id/view"
@@ -28,8 +29,7 @@
                 android:id="@+id/linearLayout2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                tools:layout_editor_absoluteY="54dp">
+                android:orientation="vertical">
 
 
                 <View
@@ -162,9 +162,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
-                android:layout_marginHorizontal="20dp"
-                tools:layout_editor_absoluteX="20dp"
-                tools:layout_editor_absoluteY="638dp">
+                android:layout_marginHorizontal="20dp">
 
 
                 <ImageView
@@ -230,7 +228,7 @@
                 android:layout_marginVertical="20dp"
                 android:orientation="vertical"
 
-                tools:layout_editor_absoluteY="717dp">
+                >
 
 
                 <LinearLayout
@@ -338,16 +336,13 @@
                 android:layout_height="120dp"
 
                 android:src="@drawable/icone_adicionar"
-                android:verticalScrollbarPosition="left"
-                tools:layout_editor_absoluteX="170dp"
-                tools:layout_editor_absoluteY="1181dp" />
+                android:verticalScrollbarPosition="left" />
 
             <LinearLayout
                 android:id="@id/title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                tools:layout_editor_absoluteY="1301dp">
+                android:orientation="vertical">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -386,8 +381,7 @@
                     />
 
             </LinearLayout>
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
     </ScrollView>
 
 
